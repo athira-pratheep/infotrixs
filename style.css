@@ -1,0 +1,199 @@
+ 
+body{
+  padding: 0 0;
+    background-color: rgb(255, 255, 255);
+}
+.main-cont{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: auto;
+    position: relative;
+    justify-content: space-between;
+}
+.side form {
+    color: #555;
+    display: flex;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+
+.side input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 0px solid transparent;
+    border-radius: inherit;
+  }
+  
+.side input[type="search"]::placeholder {
+    color: #a7a7a7;
+  }
+.side button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+.side button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+.side button[type="submit"]:focus,
+  input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #c9ccce;
+    outline: none;
+    border-radius: 20px;
+    
+  }
+.side{
+    position: relative;
+    width:25%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+
+}
+.sun{
+    width: 70%;
+    position: inherit;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.dash{
+    background-color: rgb(229, 232, 231);
+    width: 74.5%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.temp{
+    position: inherit;
+    padding-left: 15%;
+    font-size: 90px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.day{
+    position: inherit;
+    
+    padding-left: 15%;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #6b6868;
+}
+.city {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin-top: 40%;
+  text-align: center;
+  position: inherit;
+  height:100px;
+  background-image: url(kochi2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  padding: 2px 16px;
+}
+.texty{
+  padding: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: inherit;
+}
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px 20px 10px 10px ;
+  border-radius: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #bebdbd;
+  font-size: 16px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.navbar a:hover {
+  color: black;
+  border-bottom: 1px solid currentColor;
+    text-decoration: none;
+}
+.nav{
+  padding: 10px;
+}
+.nav1{
+  margin-top: 40px;
+  padding: 10px;
+}
+.bar{
+  display: inline-flex;
+  width: 100%;
+  height: 180px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+.box{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  width:11.5%;
+  height: 100%;
+  margin: 5px;
+  text-align: center;
+  background-color: white;
+}
+.box img{
+    width:60px;
+}
+p{
+  font-family: sans-serif;
+}
+.hc{
+  display: inline-flex;
+  width: 100%;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+.hcard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  width:90%;
+  height: 100%;
+  margin: 5px;
+  text-align: left;
+  
+  background-color: rgb(255, 255, 255);
+}
+.text1{
+  font-family:Arial, Helvetica, sans-serif ;
+  padding: 30px;
+  margin-top: 170px;
+}
